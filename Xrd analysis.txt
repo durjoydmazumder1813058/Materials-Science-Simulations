@@ -1,0 +1,82 @@
+Forcite
+-------
+Task             : Geometry Optimization
+Version          : 2017
+Build date       : May  5 2016
+Host             : MSI
+Threads          : Parallel 10
+Operating system : Windows
+Task started     : Sun Mar 10 14:47:54 2024
+
+---- Geometry optimization parameters ----
+
+Algorithm                       : Smart
+Convergence tolerance:
+  Energy                        : 0.001 kcal/mol
+  Force                         : 0.5 kcal/mol/A
+Maximum number of iterations    : 500
+Motion groups rigid             : NO
+
+---- Energy parameters ----
+
+Forcefield                      : Universal
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 12.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+
+---- Initial structure ----
+
+
+Total energy                    :       18716.227972 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :       13104.691
+    Bond                        :        6663.679
+    Angle                       :         580.508
+    Torsion                     :        5405.425
+    Inversion                   :         455.079
+  Non-bond energy               :        5611.537
+    van der Waals               :        5611.537
+    Electrostatic               :           0.000
+ 
+rms force  : 6.169E+001 kcal/mol/A     
+max force  : 2.254E+002 kcal/mol/A
+
+---- Final structure ----
+
+
+Total energy                    :       12948.095104 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        7299.022
+    Bond                        :        1163.722
+    Angle                       :         403.216
+    Torsion                     :        5268.658
+    Inversion                   :         463.427
+  Non-bond energy               :        5649.073
+    van der Waals               :        5649.073
+    Electrostatic               :           0.000
+ 
+rms force  : 9.106E-002 kcal/mol/A     
+max force  : 8.428E-001 kcal/mol/A
+
+WARNING Convergence criteria are not satisfied. 
+ 
+
+
+Task terminated               : Sun Mar 10 14:48:28 2024
+Total CPU time used by Forcite: 15 seconds (14.64s)
+
+Termination status : Normal

@@ -1,0 +1,19 @@
+Geometry optimization status
+
+Iteration:   500
+
+
+Total energy                    :       12948.095104 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        7299.022
+    Bond                        :        1163.722
+    Angle                       :         403.216
+    Torsion                     :        5268.658
+    Inversion                   :         463.427
+  Non-bond energy               :        5649.073
+    van der Waals               :        5649.073
+    Electrostatic               :           0.000
+ 
+rms force  : 9.106E-002 kcal/mol/A     
+max force  : 8.428E-001 kcal/mol/A
